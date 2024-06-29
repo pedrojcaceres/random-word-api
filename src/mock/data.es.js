@@ -1,0 +1,21 @@
+export const words = [
+    "libro", "pluma", "coche", "mesa", "silla", "flor", "verde", "blusa", "gatos", "perro",
+    "ratón", "tigre", "piano", "vocal", "leche", "lente", "torta", "nieve", "hojas", "luzca",
+    "botas", "reloj", "guapa", "guapo", "lamas", "helar", "helio", "acero", "poder", "truco",
+    "guata", "tropa", "lapiz", "rojas", "marea", "cerdo", "naran", "manos", "deseo", "bomba",
+    "cerro", "casta", "ayuda", "campo", "fresa", "jugar", "mucho", "punto", "ducha", "niños",
+    "leído", "grata", "limón", "libra", "caída", "jarra", "manta", "tarde", "plato", "vuela",
+    "baila", "mundo", "siglo", "baile", "terso", "cerco", "huelo", "huevo", "plazo", "regla",
+    "cinta", "clavo", "dieta", "gasto", "gesto", "mural", "toque", "tanta", "tosca", "tosco",
+    "valer", "valla", "vapor", "vasto", "venta", "calor", "feliz", "pobre", "rubio", "toalla",
+    "saber", "dicha", "buena", "norte", "surco", "este", "oeste", "madre", "padre", "perra",
+    "perro", "gallo", "gente", "grupo", "pazco", "pasos", "patas", "pelos", "poeta", "pluma",
+    "punta", "peine", "pulpo", "queda", "rabia", "ratón", "ruido", "salto", "seres", "sitio",
+    "sombra", "suelo", "temor", "techo", "tenso", "uñas", "vasto", "viver", "llama", "nunca",
+    "yogur", "duelo", "vuelo", "obras", "velas", "verbo", "vista", "veloz", "bande", "borra",
+    "hombre", "pieza", "antes", "andas", "cajas", "cacto", "ciclo", "clima", "cobra", "copas",
+    "firme", "gafas", "hongo", "hilos", "hojas", "inglés", "lista", "locos", "metros", "mimos",
+    "mosca", "música", "nombre", "oruga", "oveja", "punto", "puños", "picos", "ritmo", "ruido",
+    "rojas", "salsa", "secas", "suela", "sonar", "sucio", "sueño", "topos", "toque", "turco",
+    "truco", "unido", "valor", "veloz", "viejo", "vinos", "yate"
+]
