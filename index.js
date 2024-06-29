@@ -2,12 +2,15 @@ import express from 'express';
 import { words } from "./src/mock/data.es.js";
 import { wordsEn } from "./src/mock/data.en.js";
 import rateLimit from 'express-rate-limit';
+import dotenv from "dotenv";
+
+dotenv.config();
 
 const app = express();
 
 const limiter = rateLimit({
-    windowMs: 5 * 60 * 1000, // 15 minutes
-    max: 1000 // limit each IP to 100 requests per windowMs
+    windowMs: 5 * 60 * 1000, // 5 minutes
+    max: 1000 // limit each IP to 1000 requests per windowMs
 });
 
 app.use(limiter);
@@ -39,6 +42,6 @@ app.get('*', (req, res) => {
     res.redirect('/');
 });
 
-app.listen("3800", () => {
+app.listen(process.env.PORT || "3800", () => {
     console.log('Server running on PORT 3800')
 })
