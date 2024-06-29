@@ -3,6 +3,7 @@ import { words } from "./src/mock/data.es.js";
 import { wordsEn } from "./src/mock/data.en.js";
 import rateLimit from 'express-rate-limit';
 import dotenv from "dotenv";
+import cors from 'cors'
 
 dotenv.config();
 
@@ -14,6 +15,9 @@ const limiter = rateLimit({
 });
 
 app.use(limiter);
+
+// enable cors
+app.use(cors());
 
 app.get('/', (req, res) => {
     res.json({
